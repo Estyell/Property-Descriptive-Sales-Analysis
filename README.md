@@ -1,6 +1,6 @@
 # Rainbow Property Descriptive Analysis (2015–2019)
 
-![Property Analysis Preview](Dashboard.png)
+![Property Analysis Preview](Rainbow_Dashboard.png)
 
 ## 🔗 Live Dashboard
 - <a href="https://public.tableau.com/app/profile/stellan/viz/RainbowPropertyDescriptiveAnalysis2015-2019/RainbowPropertiesDashboard">View Dashboard on Tableau Public!</a>
@@ -26,7 +26,7 @@ Sales & Listing Teams
 # Dataset Used
 House Property Sales Time Series dataset sourced from Kaggle. The original dataset contained 29,581 rows covering 2007–2019. It was filtered to 2015–2019 to focus on recent market behaviour relevant to current strategic decisions.
 
-- <a href="https://github.com/Estyell/Sales_Tracking_Dashboard/blob/main/DemoDashboard_Data.xlsx">Dataset</a>
+- <a href="https://github.com/Estyell/sales-analysis-forecasting/blob/main/Transformed_Dataset.xlsx">Dataset</a>
 
 # Cleaning & Transformations
 All transformations were performed in Power Query to ensure a reproducible, automated pipeline.
