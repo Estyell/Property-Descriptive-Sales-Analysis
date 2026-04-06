@@ -37,8 +37,7 @@ All transformations were performed in Power Query to ensure a reproducible, auto
 - Renamed all columns to clean, readable names
 - Set correct data types — Sale_Price as Currency, Sale_Date as Date
 - Added Month_Year calculated column using Date.ToText(DateTime.Date([Sale_Date]), "yyyy-MM")
-- Added Year column using Date.Year([Sale_Date])
-- Added Quarter column using "Q" & Text.From(Date.QuarterOfYear([Sale_Date])) & " " & Text.From(Date.Year([Sale_Date]))
+- Added Year column and Quarter column
 - Added Price_Range conditional column with data-driven thresholds:
 Budget: below $500,000
 Mid-Range: $500,000 – $1,000,000
@@ -54,8 +53,8 @@ Premium: above $1,000,000
 
 - Each row represents one unique property sale transaction
 - Sale_Price reflects the final transacted price, not the listing price
-- 0-bedroom units are treated as studio apartments (legitimate property category)
-- 0-bedroom houses (11 records) are flagged as anomalies — possibly vacant land or data entry errors — removed from dataset to reflect real transactions
+- 0-bedroom properties that are *units* are treated as studio apartments, a legitimate property category
+- 0-bedroom properties that are *houses* (11 records) are flagged as anomalies — possibly vacant land or data entry errors — removed from dataset to reflect real transactions
 
 ## Business Questions
 
