@@ -36,7 +36,7 @@ All transformations were performed in Power Query to ensure a reproducible, auto
 - Filtered dataset to 2015–2019 (removed pre-2015 data reflecting a different market environment)
 - Renamed all columns to clean, readable names
 - Set correct data types — Sale_Price as Currency, Sale_Date as Date
-- Added Month_Year calculated column using Date.ToText(DateTime.Date([Sale_Date]), "yyyy-MM")
+- Added Month_Year calculated column 
 - Added Year column and Quarter column
 - Added Price_Range conditional column with data-driven thresholds:
 Budget: below $500,000
