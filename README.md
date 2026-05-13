@@ -8,7 +8,7 @@
 
 ## Business Context
 Rainbow Homes is a real estate agency operating in the Australian Capital Territory (ACT) region. Leadership needed a comprehensive understanding of property market performance across their key districts to guide listing strategy, pricing decisions, and resource allocation.
-This project analyses 17,340 property transactions across the ACT region between January 2015 and July 2019, uncovering patterns in sales volume, pricing trends, and buyer behaviour across property types, bedroom configurations, and price bands.
+This project analyses property transactions across the ACT region between January 2015 and July 2019, uncovering patterns in sales volume, pricing trends, and buyer behaviour across property types, bedroom configurations, and price bands.
 
 ## Executive Summary
 This project is a descriptive analytics solution that transforms 4.5 years of raw property transaction data into actionable market intelligence. It replaces manual spreadsheet reporting with a Tableau dashboard that enables stakeholders to explore market dynamics across multiple dimensions simultaneously.
@@ -24,7 +24,7 @@ Branch Managers
 Sales & Listing Teams
 
 ## Dataset Used
-House Property Sales Time Series dataset sourced from Kaggle. The original dataset contained 29,581 rows covering 2007–2019. It was filtered to 2015–2019 to focus on recent market behaviour relevant to current strategic decisions.
+House Property Sales Time Series dataset sourced from Kaggle. The original dataset contained raw data covering 2007–2019. This was filtered to 2015–2019 to focus on recent market behaviour relevant to current strategic decisions.
 
 - <a href="https://github.com/Estyell/sales-analysis-forecasting/blob/main/Transformed_Dataset.xlsx">Dataset</a>
 
@@ -66,7 +66,7 @@ Premium: above $1,000,000
 ## Key Findings
 
 ### Market is overwhelmingly house-dominated
-Houses account for 86.77% of all transactions (13,822 sales) vs 13.23% for units (3,518 sales). This is a house-led market across all price bands and years.
+Houses account for 86.77% of all transactions vs 13.23% for units. This is a house-led market across all price bands and years.
 
 ### Units are relevant only in the budget segment
 In the Budget band, the house/unit split is nearly equal (50.43% houses vs 49.57% units). However in Mid-Range this shifts dramatically to 93.09% houses, and in Premium to 97.37% houses. Units compete primarily at entry-level price points.
@@ -78,7 +78,7 @@ With 6,526 sales, 3-bedroom properties form the market sweet spot — followed c
 1-bedroom properties are 95.23% units. 3-bedroom properties are 93.50% houses. 4 and 5-bedroom properties are almost exclusively houses (99.67% and 100% respectively). Property type must always be considered alongside bedroom count in any price analysis.
 
 ### Market peaked in 2017
-Sales volume peaked at 4,541 transactions in 2017, with houses representing 79.93% of that year's sales. A cooling trend followed in 2018 (3,858 sales) continuing into 2019 (1,385 sales — partial year through July only).
+Sales volume peaked in 2017, with houses representing 79.93% of that year's sales. A cooling trend followed in 2018 continuing into 2019 (sales covering partial year through July only).
 
 ### Unit market share growing in cooling years
 While house dominance declined slightly from 84.77% in 2015 to 73.79% in 2019, units grew from 15.23% to 26.21% — suggesting units maintained relatively stronger demand during the market cooling period.
@@ -87,8 +87,8 @@ While house dominance declined slightly from 84.77% in 2015 to 73.79% in 2019, u
 ### Average sale price across all transactions: $648K.
 
 ## Results & Impact
-Delivered a single interactive dashboard replacing multiple static spreadsheet reports
-Identified Inner Canberra as commanding a 54% price premium over other districts — actionable insight for listing strategy
+Delivered a single dashboard in place of multiple static spreadsheet reports
+Identified mid-range prices as dominant and 3 bedroom properties preferences for customer purchase decision — actionable insight for listing strategy
 Quantified the unit market share growth during market cooling — supporting diversification of listing focus
 Documented data quality findings (0-bedroom anomalies, partial 2019 data) ensuring stakeholders interpret results correctly
 
